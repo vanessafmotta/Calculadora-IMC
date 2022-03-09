@@ -86,7 +86,7 @@
             // 
             this.textPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPeso.Location = new System.Drawing.Point(213, 68);
-            this.textPeso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPeso.Margin = new System.Windows.Forms.Padding(4);
             this.textPeso.Name = "textPeso";
             this.textPeso.Size = new System.Drawing.Size(136, 24);
             this.textPeso.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.textAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textAltura.Location = new System.Drawing.Point(213, 129);
-            this.textAltura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textAltura.Margin = new System.Windows.Forms.Padding(4);
             this.textAltura.Name = "textAltura";
             this.textAltura.Size = new System.Drawing.Size(136, 24);
             this.textAltura.TabIndex = 5;
@@ -106,7 +106,7 @@
             this.btCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCalcular.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btCalcular.Location = new System.Drawing.Point(61, 185);
-            this.btCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btCalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btCalcular.Name = "btCalcular";
             this.btCalcular.Size = new System.Drawing.Size(288, 51);
             this.btCalcular.TabIndex = 6;
@@ -127,7 +127,7 @@
             this.Controls.Add(this.lbPeso);
             this.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPrincipal";
