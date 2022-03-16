@@ -12,6 +12,8 @@ namespace Calculadora_IMC
 {
     public partial class FrmPrincipal : Form
     {
+        private object lbResultadoIMC;
+
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -21,5 +23,18 @@ namespace Calculadora_IMC
         {
 
         }
+
+        private void btCalcular_Click(object sender, EventArgs e)
+        {
+            Imc imc = new Imc();
+            imc.Altura = float.Parse(textPeso.Text);
+            imc.Peso = float.Parse(textPeso.Text);
+            lbResultadoIMC.Text = imc.calculaImc().ToString;
+            lbResultadoIMC.Visible = true;
+
+                ;
+           
+        }
+    
     }
 }
