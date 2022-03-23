@@ -33,8 +33,8 @@
             this.lbAltura = new System.Windows.Forms.Label();
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbClassificacao = new System.Windows.Forms.Label();
-            this.textPeso = new System.Windows.Forms.TextBox();
-            this.textAltura = new System.Windows.Forms.TextBox();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.txtAltura = new System.Windows.Forms.TextBox();
             this.btCalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -82,23 +82,23 @@
             this.lbClassificacao.Text = "------";
             this.lbClassificacao.Visible = false;
             // 
-            // textPeso
+            // txtPeso
             // 
-            this.textPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textPeso.Location = new System.Drawing.Point(213, 68);
-            this.textPeso.Margin = new System.Windows.Forms.Padding(4);
-            this.textPeso.Name = "textPeso";
-            this.textPeso.Size = new System.Drawing.Size(136, 24);
-            this.textPeso.TabIndex = 4;
+            this.txtPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeso.Location = new System.Drawing.Point(213, 68);
+            this.txtPeso.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(136, 24);
+            this.txtPeso.TabIndex = 4;
             // 
-            // textAltura
+            // txtAltura
             // 
-            this.textAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAltura.Location = new System.Drawing.Point(213, 129);
-            this.textAltura.Margin = new System.Windows.Forms.Padding(4);
-            this.textAltura.Name = "textAltura";
-            this.textAltura.Size = new System.Drawing.Size(136, 24);
-            this.textAltura.TabIndex = 5;
+            this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAltura.Location = new System.Drawing.Point(213, 129);
+            this.txtAltura.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAltura.Name = "txtAltura";
+            this.txtAltura.Size = new System.Drawing.Size(136, 24);
+            this.txtAltura.TabIndex = 5;
             // 
             // btCalcular
             // 
@@ -120,8 +120,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(426, 408);
             this.Controls.Add(this.btCalcular);
-            this.Controls.Add(this.textAltura);
-            this.Controls.Add(this.textPeso);
+            this.Controls.Add(this.txtAltura);
+            this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.lbClassificacao);
             this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.lbAltura);
@@ -133,6 +133,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmPrincipal";
             this.Text = "Calculadora IMC";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,8 +145,8 @@
         private System.Windows.Forms.Label lbAltura;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Label lbClassificacao;
-        private System.Windows.Forms.TextBox textPeso;
-        private System.Windows.Forms.TextBox textAltura;
+        private System.Windows.Forms.TextBox txtPeso;
+        private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.Button btCalcular;
     }
 }
